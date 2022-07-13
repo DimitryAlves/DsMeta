@@ -1,13 +1,21 @@
-import NotificationButton from "./components/NotificationButton"
+import Header from "./components/Header"
+import Card from "./components/Card"
 
 function App() {
     return (
         <>
-            <h1> oie </h1>
-            <NotificationButton />
-            <NotificationButton />
+            <Header/>
+             <main>
+                <section id = "sales">
+                    <div className = "container">
+                    <Card/>
+                    
+                    </div>
+                </section>
+                </main>
         </>
     )
 }
 
 export default App
+

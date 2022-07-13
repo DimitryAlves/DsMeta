@@ -1,0 +1,105 @@
+.card {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 40px 10px;
+
+}
+
+
+.vendas {
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.caixa1 {
+    height: 46px;
+    background-color: #182531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: white;
+    padding: 0 20px;
+    font-size: 18px;
+
+}
+
+.control {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+}
+
+.table thead {
+    height: 55px;
+    font-size: 16px #e9e9e9;
+    font-weight: 700;
+    width: 280px;
+    border-color: #5F6E82;
+
+}
+
+.table tbody {
+    font-size: 14px #CFCFCF;
+    font-weight: 400;
+    text-align: center;
+}
+
+.table tbody tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #242C3B;
+}
+
+table tbody tr:hover>td {
+    background-color: #384459;
+}
+
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.show{
+    display: none;
+
+}
+
+.show992{
+    display: none;
+}
+
+@media (min-width: 576px){
+    .show{
+        display: table-cell;
+    }
+    .card{
+        padding: 35px;
+    }
+
+    .table tbody tr{
+        height: 55px;
+    }
+
+    .table tbody{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px){
+     .show992{
+        display: table-cell;
+     }
+     
+}
