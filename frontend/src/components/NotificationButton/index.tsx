@@ -13,7 +13,7 @@ function handleClick(id :number){
     .then(response => {
         toast.info("SMS enviado com sucesso");
     })
-
+ 
 }
 
 function NotificationButton( {saleId} : Props) {
